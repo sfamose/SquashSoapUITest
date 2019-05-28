@@ -1,0 +1,4 @@
+2019-05-28 10:54:59,086 WARN  [SoapUI] Missing folder [D:\Workspace\SquashSoapUITest\ext] for external libraries
+2019-05-28 10:54:59,350 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\sfamose\soapui-settings.xml]
+2019-05-28 10:55:04,951 INFO  [SoapUI] File [D:\Workspace\SquashSoapUITest\file:\C:\Users\sfamose\AppData\Local\Temp\Squash_TA\20190528_105453_8532520022840713445716\tests\tests\first-test.ta\WeatherService-soapu6602775859982726854.xml] does not exist, trying URL instead
+2019-05-28 10:55:05,489 INFO  [WsdlProject] Loaded project from [file:/C:/Users/sfamose/AppData/Local/Temp/Squash_TA/20190528_105453_8532520022840713445716/tests/tests/first-test.ta/WeatherService-soapu6602775859982726854.xml]

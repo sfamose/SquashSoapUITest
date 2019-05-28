@@ -1,0 +1,3 @@
+TEST :
+
+# EXECUTE_SOAPUI WeatherService-soapui-project.xml WITH TEST_SUITE TestSuite1 AND TEST_CASE TC1
