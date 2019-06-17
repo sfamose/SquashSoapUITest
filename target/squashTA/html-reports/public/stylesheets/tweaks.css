@@ -40,3 +40,45 @@
 .middle    { vertical-align:middle; }
 .w15p   { width: 15px; }
 /* end of Issue 7604 */
+
+/* [SQTA-33]  */
+/* adding for Gherkin HTML reporting */ 
+.h4-subscript {
+	font-size: 1.5714em; /* equiv 22px */
+	font-weight: normal;
+	line-height: 1.909em;
+	margin: .9545em 0 0 0;
+	color: #1f70ad;
+	background-color: #dae6f1;
+}
+.subscript{
+	border: 0.1em solid #dae6f1;
+	margin-top: 1.3em;
+}
+.subscript-content{
+	padding: 1em 1.4em 1.4em 1.4em;
+}
+.subscript-header h4{
+    padding: 0 0.7em;
+}
+
+/* [SQTA-145] */
+/* Dynamique change of <summary> between Display and Hide in Gherkin reports */
+
+.script summary:after {
+   content: "Display";
+}
+.script details[open] summary:after {
+   content: "Hide";
+}
+
+.subscript details:not([open]) summary:after {
+   content: "Display";
+}
+.subscript details[open] summary:after {
+   content: "Hide";
+}
+
+
+
+

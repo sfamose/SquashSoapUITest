@@ -1,0 +1,3 @@
+TEST :
+
+# EXECUTE_SOAPUI RestApiExemple-soapui-project.xml WITH TEST_SUITE TestSuiteEmployee AND TEST_CASE TC_createUpdateDelete
